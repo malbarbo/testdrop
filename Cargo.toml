@@ -1,0 +1,11 @@
+[package]
+name = "testdrop"
+version = "0.1.0"
+authors = ["malbarbo"]
+description = "A utility to help test drop implementations"
+keywords = ["test", "drop"]
+repository = "https://github.com/malbarbo/droptest"
+homepage = "https://github.com/malbarbo/droptest"
+documentation = "https://docs.rs/testdrop"
+readme = "README.md"
+license = "MIT/Apache-2.0"
