@@ -3,6 +3,7 @@
 A small crate to help test drop implementation
 
 [![Build Status](https://travis-ci.org/malbarbo/testdrop.svg?branch=master)](https://travis-ci.org/malbarbo/testdrop)
+[![Build status](https://ci.appveyor.com/api/projects/status/ww0qx6msilj8pwaw/branch/master?svg=true)](https://ci.appveyor.com/project/malbarbo/testdrop)
 [![Crates](http://meritbadge.herokuapp.com/testdrop)](https://crates.io/crates/testdrop)
 
 ## Documentation
