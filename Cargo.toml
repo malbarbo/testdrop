@@ -4,8 +4,13 @@ version = "0.1.1"
 authors = ["malbarbo"]
 description = "A utility to help test drop implementations"
 keywords = ["test", "drop"]
+categories = ["development-tools::testing"]
 repository = "https://github.com/malbarbo/testdrop"
 homepage = "https://github.com/malbarbo/testdrop"
 documentation = "https://docs.rs/testdrop"
 readme = "README.md"
 license = "MIT/Apache-2.0"
+
+[badges]
+travis-ci = { repository = "malbarbo/testdrop" }
+appveyor = { repository = "malbarbo/testdrop" }
