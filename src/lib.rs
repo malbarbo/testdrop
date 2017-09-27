@@ -95,7 +95,7 @@ impl TestDrop {
     /// Returns the number of dropped items so far.
     pub fn num_dropped_items(&self) -> usize {
         self.drops.get()
-    } // unreachable
+    }
 
     /// Asserts that an item was dropped.
     ///
@@ -184,7 +184,7 @@ mod tests {
         let td = TestDrop::new();
         let (id, _item) = td.new_item();
         td.assert_drop(id);
-        unreachable!()
+        unreachable!();
     }
 
     #[test]
@@ -196,7 +196,7 @@ mod tests {
         drop(item);
         td.assert_drop(id);
         td.assert_no_drop(id);
-        unreachable!()
+        unreachable!();
     }
 
     #[test]

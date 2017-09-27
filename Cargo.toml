@@ -13,4 +13,4 @@ license = "MIT/Apache-2.0"
 
 [badges]
 travis-ci = { repository = "malbarbo/testdrop" }
-appveyor = { repository = "malbarbo/testdrop" }
+codecov = { repository = "malbarbo/testdrop" }
