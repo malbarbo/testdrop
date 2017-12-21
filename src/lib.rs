@@ -103,9 +103,7 @@ impl TestDrop {
     ///
     /// If the item was not dropped.
     pub fn assert_drop(&self, id: usize) {
-        assert!(self.is_dropped(id),
-                "{} should be dropped, but was not",
-                id);
+        assert!(self.is_dropped(id), "{} should be dropped, but was not", id);
     }
 
     /// Asserts that an item was not dropped.
@@ -114,9 +112,11 @@ impl TestDrop {
     ///
     /// If the item was dropped.
     pub fn assert_no_drop(&self, id: usize) {
-        assert!(!self.is_dropped(id),
-                "{} should not be dropped, but was",
-                id);
+        assert!(
+            !self.is_dropped(id),
+            "{} should not be dropped, but was",
+            id
+        );
     }
 
     fn is_dropped(&self, id: usize) -> bool {
@@ -172,7 +172,6 @@ impl<'a> Item<'a> {
         self.id
     }
 }
-
 
 #[cfg(test)]
 mod tests {
